@@ -1,0 +1,98 @@
+<!-- Template for Login Page -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipe Finder</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #f5f5f5;
+			font-family: Arial, sans-serif;
+		}
+		
+		.login-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+		
+		.login-box {
+			background-color: #fff;
+			border: 1px solid #ccc;
+			padding: 20px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			width: 400px;
+			max-width: 90%;
+			position: relative;
+			text-align: center;
+		}
+		
+		.login-box img {
+			display: block;
+			margin: 10px auto;
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			object-fit: cover;
+			object-position: center center;
+			overflow: hidden;
+		}
+		
+		.login-box h1 {
+			margin-top: 20px;
+			text-align: center;
+		}
+		
+		.login-box input[type="email"], .login-box input[type="password"] {
+			display: block;
+			margin: 20px auto;
+			padding: 10px;
+			width: 100%;
+			border: 1px solid #DAA520;
+			border-radius: 3px;
+			font-size: 16px;
+			font-family: Arial, sans-serif;
+			box-sizing: border-box;
+		}
+		
+		.login-box button[type="submit"] {
+			display: block;
+			margin-top: 20px;
+			padding: 10px;
+			width: 100%;
+			background-color: #DAA520;
+			color: #fff;
+			border: none;
+			border-radius: 3px;
+			font-size: 16px;
+			font-family: Arial, sans-serif;
+			cursor: pointer;
+		}
+		
+		.login-box button[type="submit"]:hover {
+			background-color: #B8860B;
+		}
+	</style>
+</head>
+<body>
+	<div class="login-container">
+    <form method="post" action="/login/user">
+		  <div class="login-box">
+        <img class="profile-pic" src="https://images.freeimages.com/images/previews/87e/chicken-teriyaki-1639918.jpg" alt="profile picture" width = 200>
+        <h1>LOGIN</h1>
+        <form>
+          <input type="email" name="username" placeholder="Email" required>
+          <input type="password" name="password" placeholder="Password" required>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </form>
+	</div>
+</body>
+</html>
+
+

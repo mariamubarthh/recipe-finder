@@ -1,0 +1,114 @@
+<!-- Template for Admin Page -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipe Finder</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #f5f5f5;
+			font-family: Arial, sans-serif;
+		}
+		
+		.admin-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+		
+		.admin-box {
+			background-color: #fff;
+			border: 1px solid #ccc;
+			padding: 20px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			width: 400px;
+			max-width: 90%;
+			position: relative;
+			text-align: center;
+		}
+		
+		.admin-box img {
+            display: block;
+            margin: 10px auto 10px auto;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            object-fit: cover;
+            object-position: center center;
+            overflow: hidden;
+          }
+		
+		.admin-box h1 {
+			margin-top: 20px;
+			text-align: center;
+		}
+		
+		.admin-box button[type="submit"] {
+			display: block;
+			margin-top: 10px;
+			padding: 10px;
+			width: 100%;
+			background-color: #DAA520;
+			color: #fff;
+			border: none;
+			border-radius: 3px;
+			font-size: 16px;
+			font-family: Arial, sans-serif;
+			cursor: pointer;
+		}
+		
+		.admin-box button[type="submit"]:hover {
+			background-color: #B8860B;
+		}
+		
+		.btn-container {
+			display: flex;
+			flex-direction: column;
+			margin-top: 20px;
+			width: 100%;
+			align-items: center;
+		}
+		
+		.btn-container button {
+			display: block;
+			margin-top: 10px;
+			padding: 10px;
+			width: 100%;
+			background-color: #DAA520;
+			color: #fff;
+			border: none;
+			border-radius: 3px;
+			font-size: 16px;
+			font-family: Arial, sans-serif;
+			cursor: pointer;
+		}
+		
+		.btn-container button:hover {
+			background-color: #B8860B;
+		}
+	</style>
+</head>
+<body>
+	<div class="admin-container">
+		<div class="admin-box">
+			<img class="profile-pic" src="https://images.freeimages.com/images/previews/87e/chicken-teriyaki-1639918.jpg" alt="profile picture" width="200">
+			<h1>Admin</h1>
+			<div class="btn-container">
+				<form action = "/recipe/addnew" method = "get"> 
+					<button type="submit" style = "width:400px; " >Add Recipe</button>
+				</form>
+				<form action = "/recipe/searchrecipe" method = "get"> 
+					<button type="submit"  style = "width:400px; " >Search Recipe</button>
+				</form>
+                <form action = "/recipe/all" method = "get"> 
+					<button type="submit"  style = "width:400px; " >All Recipes</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
