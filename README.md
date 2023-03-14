@@ -46,8 +46,7 @@
 		<li><code>DATABASE_HOSTNAME</code>: the name of your PostgreSQL database</li>
 		<li><code>DATABASE_PORT</code>: Port number used for database</li>
 		<li><code>DATABASE_PW</code>: Password used for database</li>
-		<li><code>DATABASE_USERNAME</code>: User database</li>
-		
+		<li><code>DATABASE_USERNAME</code>: User database </li>
 	</ul>
 	<h2>Contributing</h2>
 	<p>Contributions to Recipe Finder are welcome! If you find a bug or have a feature request, please open an issue or submit a pull request.</p>
