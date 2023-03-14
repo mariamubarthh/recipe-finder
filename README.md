@@ -21,6 +21,8 @@
 		<li>Jinja2 templating engine</li>
 		<li>HTML, CSS, and JavaScript</li>
 	</ul>
+        <h2>Demo Video</h2>
+	<p>Check out the demo video (https://www.youtube.com/watch?v=Q3DhBCjayJs)</p>
 	<h2>Getting Started</h2>
 	<h3>Prerequisites</h3>
 	<ul>
@@ -29,7 +31,7 @@
 	</ul>
 	<h3>Installation</h3>
 	<ol>
-		<li>Clone this repository: <code>git clone https://github.com/your-username/recipe-finder.git</code></li>
+		<li>Clone this repository: <code>git clone https://github.com/mariamubarthh/recipe-finder.git</code></li>
 		<li>Navigate to the project directory: <code>cd recipe-finder</code></li>
 		<li>Create a virtual environment: <code>python -m venv venv</code></li>
 		<li>Activate the virtual environment: <code>source venv/bin/activate</code></li>
