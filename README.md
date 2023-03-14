@@ -43,15 +43,18 @@
 	<h3>Configuration</h3>
 	<p>To configure the application, create a <code>.env</code> file in the project directory and set the following environment variables:</p>
 	<ul>
-		<li><code>DATABASE_URL</code>: the URL of your PostgreSQL database</li>
-		<li><code>SECRET_KEY</code>: a secret key used for secure cookies</li>
+		<li><code>DATABASE_HOSTNAME</code>: the name of your PostgreSQL database</li>
+		<li><code>DATABASE_PORT</code>: Port number used for database</li>
+		<li><code>DATABASE_PW</code>: Password used for database</li>
+		<li><code>DATABASE_USERNAME</code>: User database</li>
+		
 	</ul>
 	<h2>Contributing</h2>
 	<p>Contributions to Recipe Finder are welcome! If you find a bug or have a feature request, please open an issue or submit a pull request.</p>
 	<h2>License</h2>
 	<p>Recipe Finder is licensed under the MIT License. See <code>LICENSE</code> for details.</p>
 	<h2>Authors</h2>
-	<p>Your Name (<a href="mailto:your-email@example.com">mariamubarthh@gmail.com</a>)</p>
+	<p>Mariamu Nerima Barth  (<a href="mailto:your-email@example.com">mariamubarthh@gmail.com</a>)</p>
 	<h2>Acknowledgements</h2>
 	<p>Special thanks to the instructors and teaching assistants of the Python programming course.</p>
 </body>
